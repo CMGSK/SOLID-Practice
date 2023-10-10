@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7K2tXnZ0VJzNncqT7gfBQc/sgE33g1p0nZLkXtfg8ZXwb4FUMj508rrWsRaJQiNkWPtuRFprSdyzFp+gLKjvmQ==",
+  "success": true,
+  "projectFilePath": "/home/miku/programming/csharp/FlashitoSolid/FlashitoSolid/FlashitoSolid.csproj",
+  "expectedPackageFiles": [
+    "/home/miku/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
