@@ -47,13 +47,13 @@ chaosHead.TalkAbout();
 #endregion
 
 #region People
-var flashito = new Person
+var flashito = new MediaConsumer
 {
     Name = "Flashito",
     Age = 25
 };
 
-var ame = new Person
+var ame = new MediaConsumer
 {
     Name = "Ame",
     Age = 25
@@ -61,15 +61,15 @@ var ame = new Person
 #endregion
 
 #region People Actions
-flashito.ConsumeVisualNovel(umineko);
-ame.ConsumeAnime(steinsGateAnime);
-ame.ConsumeVisualNovel(chaosHead);
+flashito.ConsumeMedia(umineko);
+ame.ConsumeEpisodicMedia(steinsGateAnime);
+ame.ConsumeMedia(chaosHead);
 
-flashito.RecommendVisualNovel(ame, umineko);
-flashito.RecommendVisualNovel(ame, umineko);
+flashito.RecommendMedia(ame, umineko);
+flashito.RecommendMedia(ame, umineko);
 
-ame.RecommendVisualNovel(flashito, umineko);
-ame.RecommendAnime(flashito, steinsGateAnime);
-ame.RecommendAnime(flashito, steinsGateAnime);
-ame.RecommendVisualNovel(flashito, chaosHead);
+ame.RecommendMedia(flashito, umineko);
+ame.RecommendEpisodicMedia(flashito, steinsGateAnime);
+ame.RecommendEpisodicMedia(flashito, steinsGateAnime);
+ame.RecommendMedia(flashito, chaosHead);
 #endregion
