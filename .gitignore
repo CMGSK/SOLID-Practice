@@ -1,5 +1,6 @@
-Flashitosolid.sln
-/bin/
-/obj/
+*.sln
+bin/
+obj/
 *.csproj
-
+.idea/
+.vscode/
